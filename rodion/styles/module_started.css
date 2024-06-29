@@ -1,0 +1,50 @@
+.content {
+  padding: 20px 0;
+  display: flex;
+  height: calc(100vh - 100px - 200px);
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.content .row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.content .row .data {
+  flex: 1;
+  border: 1px solid black;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  align-items: start;
+  border-radius: 7px;
+  justify-content: space-evenly;
+}
+.content .row .data button {
+  background: black;
+  border-radius: 10px;
+  color: white;
+  transition: box-shadow ease-in-out 0.3s;
+  padding: 5px 20px;
+  font-weight: bold;
+  border: none;
+}
+.content .row .data button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow ease-in-out 0.3s;
+}
+.content .row img {
+  border-radius: 10px;
+  width: 100px;
+}
+
+/*# sourceMappingURL=module_started.css.map */

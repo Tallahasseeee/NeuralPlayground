@@ -1,0 +1,59 @@
+.content {
+  padding: 20px 0;
+  display: flex;
+  height: calc(100vh - 100px - 200px);
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .left-part, .content .right-part {
+  height: 100%;
+}
+.content .left-part {
+  padding-left: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.content .left-part h1 {
+  margin-bottom: 10px;
+}
+.content .left-part .module {
+  padding: 10px 0;
+  padding-left: 10px;
+  padding-right: 25px;
+  transition: box-shadow ease-in-out 0.3s;
+  border-radius: 10px;
+  width: 400px;
+  border: 1px solid black;
+}
+.content .left-part .module p {
+  margin-bottom: 5px;
+}
+.content .left-part .module a {
+  font-weight: bold;
+  color: black;
+}
+.content .left-part .module:hover {
+  cursor: pointer;
+  transition: box-shadow ease-in-out 0.3s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.content .left-part .module.done .module {
+  background-color: #8d99ae;
+}
+.content .left-part .module.in-progress .module {
+  background-image: linear-gradient(to right, #8d99ae, #abb1c2, #c8cad6, #e4e4ea, #ffffff);
+}
+.content .right-part {
+  flex: 1;
+  background-image: url("../images/5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=archive.css.map */

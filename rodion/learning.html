@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/learning.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <title>NeuralPlayground</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+        <b>NeuralPlayground</b>
+    </div>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="learning.html">Learning</a>
+        <a href="archive.html">Code archive</a>
+    </div>
+</header>
+<div class="content">
+    <div class="row done">
+        <h2>Completed</h2>
+        <div class="module-holder">
+            <div class="module" onclick="window.location.href = 'module.html'">
+                <p>Module 1: Perceptron</p>
+                <b>Interactive part: Trying out inputs</b>
+            </div>
+        </div>
+    </div>
+    <div class="row in-progress">
+        <h2>In progress</h2>
+        <div class="module-holder">
+            <div class="module" onclick="window.location.href = 'module.html'">
+                <p>Module 2: Basic Architectures</p>
+                <b>Interactive part: Customizing function</b>
+            </div>
+            <div class="module" onclick="window.location.href = 'module.html'">
+                <p>Module 3: Building feedforward neural network</p>
+                <b>Interactive part: Testing on your images</b>
+            </div>
+        </div>
+    </div>
+    <div class="row not-started">
+        <h2>Not started</h2>
+        <div class="module-holder">
+            <div class="module" onclick="window.location.href = 'module.html'">
+                <p>Module 4: Building CNN</p>
+                <b>Interactive part: Testing on your images</b>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <b>“Opportunity is missed by most people because it is dressed in overalls and looks like work.”</b>
+    <p>Thomas Edison</p>
+</footer>
+</body>
+</html>

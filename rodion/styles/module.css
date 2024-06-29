@@ -1,0 +1,47 @@
+.content {
+  padding: 20px 0;
+  display: flex;
+  height: calc(100vh - 100px - 200px);
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.content .left-part {
+  height: 100%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  width: 65%;
+}
+.content .left-part .module {
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: box-shadow ease-in-out 0.3s;
+  background-image: linear-gradient(to right, #8d99ae, #abb1c2, #c8cad6, #e4e4ea, #ffffff);
+  padding: 10px 50px 10px 10px;
+}
+.content .left-part .module p {
+  margin-bottom: 10px;
+}
+.content .left-part .module a {
+  font-weight: bold;
+  color: black;
+}
+.content .left-part .module:hover {
+  transition: box-shadow ease-in-out 0.3s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.content .right-part {
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/3.png");
+}
+
+/*# sourceMappingURL=module.css.map */
